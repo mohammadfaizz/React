@@ -1,0 +1,19 @@
+//using props as state property
+
+// class Comp extends React.Component{
+//   state = {
+//     name: this.props.name
+//   }
+
+//   render(){
+//     return <h1>Hello, {this.props.name}</h1>
+//   }
+// }
+
+
+
+// const el = <Comp name="World"/>;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
