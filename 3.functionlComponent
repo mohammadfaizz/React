@@ -1,0 +1,12 @@
+// ##### Functional Component ################################################################
+
+
+// function Comp(){
+//   return <h1>Hello, World</h1>
+// }
+
+// const el = <Comp/>;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
