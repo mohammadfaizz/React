@@ -1,0 +1,34 @@
+// ##### Component using Components #################################################################
+
+
+// class Comp extends React.Component{
+//   render(){
+//     return <div>
+      
+//     <Hello name="Faiz"/>
+//     <Hello name="BOB"/>
+//     <Hello name="aDAM"/>
+//     <Hello name="Mark"/>
+//     <Submit/>
+//     </div>
+//   }
+// }
+
+// function Hello(props){
+//   return <form><input type="text" value={props.name}/><br/><input type="checkbox"/></form>
+// }
+
+
+// const ele = <Comp/>;
+// const Hey = <Hello/>;
+// const sub = <Submit/>;
+
+
+// function Submit(){
+//   return <input type="submit"/>;
+// }
+
+// ReactDOM.render(
+//   ele,
+//   document.getElementById("root")
+// )
