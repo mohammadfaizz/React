@@ -1,0 +1,22 @@
+//##### set interval ###########################################################################
+
+
+// let counter = 0;
+// let count = 1;
+// function show(){
+//   counter++;
+//   // if(counter > 10){
+//   //   counter = count;
+//   // }
+//   const el = <p className="text-center text-primary h1">{counter}</p>;
+//   ReactDOM.render(
+//     el,
+//     document.getElementById("root")
+//   );
+// }
+
+// ReactDOM.render(
+//   <p className = "text-center">Hello World</p>,
+//   document.getElementById("boot")
+// );
+// setInterval(show, 1000);
