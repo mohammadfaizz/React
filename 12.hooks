@@ -1,0 +1,39 @@
+//counter app using hooks/useState()
+
+// function Counter(){
+//   const [count, setCounter] = useState(0);
+
+// function increment(){
+//   setCounter(count+1);
+// }
+
+// return <div className="d-flex justify-content-center align-items-center flex-column">
+//   <h5>{count}</h5>
+//   <button className="btn btn-success" onClick={increment}>Increment</button>
+// </div>
+
+// }
+
+// const el = <Counter/>;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
+
+
+
+
+
+//useState 
+
+// function Hello(){
+//   const [name, setName] = useState("david");
+//   return <h1>Hello, {name}</h1>
+// }
+
+
+// const el = <Hello />;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
