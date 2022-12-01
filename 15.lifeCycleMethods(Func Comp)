@@ -1,0 +1,27 @@
+//useEffect() hook
+
+
+function Comp(){
+  const [count, setCount] = useState(0);
+
+  useEffect(()=>{
+    alert("hello");
+  },[count])
+
+  function increment(){
+    setCount(count+1);
+  }
+
+
+  return <div><h1>{count}</h1><button onClick={increment}>Increment</button></div>
+
+}
+
+
+const el = <Comp/>;
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  el
+);
