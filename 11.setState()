@@ -1,0 +1,27 @@
+//counter appp using setState & Bootstrap
+
+
+// class Inc extends React.Component{
+//   state = {
+//     count: 0
+//   }
+
+//   increment = ()=>{
+//     this.setState({
+//       count : this.state.count+1
+//     })
+//   }
+
+//   render(){
+//     return <div className="d-flex flex-column align-items-center justify-content-center">
+//       <h3 className="h1">{this.state.count}</h3>
+//       <button className="btn btn-danger" onClick={this.increment}>Increment</button>
+//     </div>
+//   } 
+// }
+
+// const el = <Inc />;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
