@@ -1,0 +1,69 @@
+// componentDidUpdated()  Method
+
+
+
+class Comp extends React.Component{
+
+  state = {
+    count: 0
+  }
+
+  increment = ()=>{
+    this.setState({count: this.state.count+1});
+  }
+
+  // componentDidUpdate(){
+  //   return <div><h1>updated</h1></div>;
+  // }
+
+  render(){
+    return <div className="d-flex justify-content-center align-items-center flex-column">
+      <h1>{this.state.count}</h1>
+      <button onClick={this.increment}>Increment</button>
+    </div>
+  }
+}
+const el = <Comp />;
+
+const boot = ReactDOM.createRoot(
+  document.getElementById("root")
+  )
+
+  boot.render(
+    el
+  )
+
+//componentDidMount()  Method
+
+
+class Comp extends React.Component{
+
+  state = {
+    count: 0
+  }
+
+  increment = ()=>{
+    this.setState({count: this.state.count+1});
+  }
+
+  componentDidMount(){
+    this.setState({count: 100});
+  }
+
+  componentDidUpdate(){
+    alert("Component is Updated");
+  }
+
+  render(){
+    return <div className="d-flex justify-content-center align-items-center flex-column">
+      <h1>{this.state.count}</h1>
+      <button onClick={this.increment}>Increment</button>
+    </div>
+  }
+}
+
+const el = <Comp />;
+ReactDOM.render(
+  el,
+  document.getElementById("root")
+)
