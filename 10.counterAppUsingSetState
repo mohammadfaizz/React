@@ -1,0 +1,49 @@
+//counter app using setState
+
+
+// class Inc extends React.Component{S
+//   state = {
+//     count : 0
+//   }
+
+//   increment = ()=>{
+//     this.setState({
+//       count: this.state.count+1
+//     });
+//   }
+
+//   render(){
+//     return <div> <p>{this.state.count}</p>
+//     <button onClick = {this.increment}>Increment</button>
+//     </div>
+//   }
+// }
+
+// const el = <Inc />;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// );
+
+
+
+
+//using props as state property
+
+// class Comp extends React.Component{
+//   state = {
+//     name: this.props.name
+//   }
+
+//   render(){
+//     return <h1>Hello, {this.props.name}</h1>
+//   }
+// }
+
+
+
+// const el = <Comp name="World"/>;
+// ReactDOM.render(
+//   el,
+//   document.getElementById("root")
+// )
